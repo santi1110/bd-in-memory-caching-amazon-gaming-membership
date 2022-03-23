@@ -1,6 +1,6 @@
 package com.amazon.ata.inmemorycaching.classroom.dao.models;
 
-import com.amazon.ata.dynamodbdeleteiterators.classroom.converter.ZonedDateTimeConverter;
+import com.amazon.ata.inmemorycaching.classroom.converter.ZonedDateTimeConverter;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBHashKey;

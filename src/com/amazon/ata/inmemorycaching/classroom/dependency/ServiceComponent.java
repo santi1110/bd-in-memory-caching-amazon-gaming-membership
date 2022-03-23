@@ -1,6 +1,6 @@
 package com.amazon.ata.inmemorycaching.classroom.dependency;
 
-import com.amazon.ata.dynamodbquery.classroom.dependency.DaoModule;
+import com.amazon.ata.inmemorycaching.classroom.dependency.DaoModule;
 import com.amazon.ata.inmemorycaching.classroom.activity.AddUserToGroupActivity;
 import com.amazon.ata.inmemorycaching.classroom.activity.CheckUserInGroupActivity;
 import com.amazon.ata.inmemorycaching.classroom.activity.CreateGroupActivity;
