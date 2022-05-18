@@ -30,7 +30,7 @@ entity types. The relevant cases at this point are:
     * GetUsersInGroup
     * RemoveUserFromGroup
 
-The code base follows the Activity-DAO-DynamoDBMapper pattern that we've come
+The code base follows the ***Activity-DAO-DynamoDBMapper*** pattern that we've come
 to know and love. Each Activity class implements one service operation.
 
 This service follows a data deletion pattern that you haven't seen before, followed by
@@ -57,7 +57,7 @@ have stabilized, but we won't be doing that today.
    ```
 1. Log into your AWS account and verify that the tables exist and have
    sample data.
-1. Discuss the different attributes with your team to make sure you all understand
+1. Review the different attributes to make sure you understand
    what they represent.
 1. As a final verification, run `Phase0Test` make sure it passes.
 
@@ -74,24 +74,12 @@ Phase 0 is complete when:
 It's time to implement the cache! There are three steps:
 
 1. Implement your cache design in `GroupMembershipCachingDao`.
-1. Write unit tests.
 1. Use you caching DAO in `CheckUserInGroupActivity`.
 
 
 ### Implement your cache design
 Update the class `GroupMembershipCachingDao` to implement your group's design from 
 the previous phase.
-
-### Write unit tests
-Implement the two unit tests in `GroupMembershipCachingDaoTest`.
-We've added comments to the GIVEN, WHEN, AND THEN sections describing what to do.
-You'll need to implement them with your own models.
-
-To populate the cache, make a request to your caching DAO. This should call the delegate DAO.
-To verify that a mock was called a specified number of times, use code like this:
-```java
-    verify(mockDao, times(1)).callToGetSourceData(param1, param2);
-```
 
 ### Use your caching DAO
 Update the `CheckUserInGroupActivity` class to utilize your newly created cache.
@@ -100,6 +88,5 @@ Update the `CheckUserInGroupActivity` class to utilize your newly created cache.
 
 Phase 1 is complete when:
  - You've implemented your cache design in `GroupMembershipCachingDao`.
- - You've written two unit tests in `GroupMembershipCachingDaoTest` covering the hit and miss case
  - You've updated `CheckUserInGroupActivity` to use your cache
  - `Phase1Test` passes

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.amazon.ata.inmemorycaching.classroom.integration.Phase0Test" tests="3" skipped="0" failures="3" errors="0" timestamp="2022-03-23T22:33:37" hostname="Lambda-School-Jamies-MacBook-Pro.local" time="1.129">
+<testsuite name="com.amazon.ata.inmemorycaching.classroom.integration.Phase0Test" tests="3" skipped="0" failures="3" errors="0" timestamp="2022-05-18T19:29:25" hostname="Lambda-School-Frank-Fellas-MacBook-Pro.local" time="1.857">
   <properties/>
-  <testcase name="[1] Caching-Groups" classname="com.amazon.ata.inmemorycaching.classroom.integration.Phase0Test" time="0.702">
+  <testcase name="[1] Caching-Groups" classname="com.amazon.ata.inmemorycaching.classroom.integration.Phase0Test" time="0.93">
     <failure message="org.opentest4j.AssertionFailedError: Did not find expected table, 'Caching-Groups'" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Did not find expected table, 'Caching-Groups'
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
@@ -151,7 +151,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="[2] Caching-GroupMemberships" classname="com.amazon.ata.inmemorycaching.classroom.integration.Phase0Test" time="0.193">
+  <testcase name="[2] Caching-GroupMemberships" classname="com.amazon.ata.inmemorycaching.classroom.integration.Phase0Test" time="0.454">
     <failure message="org.opentest4j.AssertionFailedError: Did not find expected table, 'Caching-GroupMemberships'" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Did not find expected table, 'Caching-GroupMemberships'
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
@@ -301,7 +301,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:831)
 </failure>
   </testcase>
-  <testcase name="[3] Caching-GroupMembershipAudits" classname="com.amazon.ata.inmemorycaching.classroom.integration.Phase0Test" time="0.21">
+  <testcase name="[3] Caching-GroupMembershipAudits" classname="com.amazon.ata.inmemorycaching.classroom.integration.Phase0Test" time="0.463">
     <failure message="org.opentest4j.AssertionFailedError: Did not find expected table, 'Caching-GroupMembershipAudits'" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Did not find expected table, 'Caching-GroupMembershipAudits'
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
@@ -452,5 +452,25 @@
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[May 18, 2022 3:29:25 PM com.amazonaws.auth.profile.internal.BasicProfileConfigLoader loadProfiles
+WARNING: Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+May 18, 2022 3:29:25 PM com.amazonaws.auth.profile.internal.BasicProfileConfigLoader loadProfiles
+WARNING: Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+May 18, 2022 3:29:25 PM com.amazonaws.auth.profile.internal.BasicProfileConfigLoader loadProfiles
+WARNING: Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+May 18, 2022 3:29:25 PM com.amazonaws.auth.profile.internal.BasicProfileConfigLoader loadProfiles
+WARNING: Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+May 18, 2022 3:29:25 PM com.amazonaws.auth.profile.internal.BasicProfileConfigLoader loadProfiles
+WARNING: Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+May 18, 2022 3:29:25 PM com.amazonaws.auth.profile.internal.BasicProfileConfigLoader loadProfiles
+WARNING: Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+May 18, 2022 3:29:26 PM com.amazonaws.auth.profile.internal.BasicProfileConfigLoader loadProfiles
+WARNING: Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+May 18, 2022 3:29:26 PM com.amazonaws.auth.profile.internal.BasicProfileConfigLoader loadProfiles
+WARNING: Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+May 18, 2022 3:29:27 PM com.amazonaws.auth.profile.internal.BasicProfileConfigLoader loadProfiles
+WARNING: Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+May 18, 2022 3:29:27 PM com.amazonaws.auth.profile.internal.BasicProfileConfigLoader loadProfiles
+WARNING: Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+]]></system-err>
 </testsuite>
